@@ -1,4 +1,4 @@
-# Minecraft Knock-off (Replica made by me)
+# 3D Block Game
 
 ## IMPORTANT DISCLAIMER:
 
@@ -39,7 +39,7 @@ uv add ursina
 
 3. Run all files (OPTIONAL):
 
-If there any any weird bugs saying that it does not recognize any `.py` files from the `Main.py` file imports, make sure to hit the run button before executing `Main.py`, that way, the game will work perfectly fine.
+If there any any weird bugs saying that it does not recognize any `.py` files from the `Main.py` file imports, make sure to hit the run button in all other files such as `Player.py`, `Terrain.py`, ... before executing `Main.py`, that way, the game will work perfectly fine.
 
 4. Run `Main.py`:
 
