@@ -18,3 +18,11 @@ class Terrain(Entity):
                     color=color.white,
                     collider='box'
                 )
+
+    def update(self):
+
+        if distance(self.position, camera.position) > 40:
+            self.visible = False
+        
+        else:
+            self.visible = True
