@@ -21,7 +21,7 @@ class Terrain(Entity):
 
     def update(self):
 
-        if distance(self.position, camera.position) > 40:
+        if distance(self.position, camera.world_position) > 20:
             self.visible = False
         
         else:

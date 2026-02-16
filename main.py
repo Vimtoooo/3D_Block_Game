@@ -13,7 +13,7 @@ for z in range(20):
             position = (x, 0, z),
             model = 'cube',
             color = color.green,
-            collider = 'box',
+            collider = 'box'
         )
 
 

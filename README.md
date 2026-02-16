@@ -47,14 +47,13 @@ Simply run the `Main.py` file and enjoy the game!
 
 ### Current Implemented Features:
 
+* **Crouch Mechanism**: A simple crouch button for our player.
 * **Distance Culling**: Blocks that are far away from the player, won't be rendered, making them temporarily hidden, only when the player itself walks towards those entities.
 
 ### Issues To Fix:
 
-* **Rendering Vision**: Since everything is being rendered (even though some entities are not in our cone of vision) it increases lag and reduces performance drastically. Create a method that manages this issue with the rendering, so that it only renders what we can see and not what we can't.
 * **Vertical Block Phasing**: When attempting to collide into a block from bellow, the player phases through the block, allowing him to jump and climb through the block.
-
 
 ### Features to Add:
 
-* **Crouch Mechanism**: A simple crouch button for our player.
+* **Appealing Textures**: Swap from the default built-in ursina textures to custom assets.
