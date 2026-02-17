@@ -6,7 +6,7 @@ class Terrain(Entity):
         self.is_modifiable = is_modifiable
 
     def input(self, key):
-        if self.hovered and self.is_modifiable:
+        if self.hovered and self.is_modifiable and distance(self.position, camera.world_position) < 5:
 
             if key == 'left mouse down':
                 destroy(self)
@@ -15,7 +15,7 @@ class Terrain(Entity):
                 Terrain(
                     position=self.position + mouse.normal,
                     model='cube',
-                    color=color.white,
+                    color=color.blue,
                     collider='box'
                 )
 

@@ -49,10 +49,12 @@ Simply run the `Main.py` file and enjoy the game!
 
 * **Crouch Mechanism**: A simple crouch button for our player.
 * **Distance Culling**: Blocks that are far away from the player, won't be rendered, making them temporarily hidden, only when the player itself walks towards those entities.
+* **Pause Menu**: Whenever in need to pause any gameplay, press the 'escape' button to pause the action and take a break. When you're done, either press 'escape' again or the 'Resume' button to return to the session.
 
 ### Issues To Fix:
 
 * **Vertical Block Phasing**: When attempting to collide into a block from bellow, the player phases through the block, allowing him to jump and climb through the block.
+* **Block placing and breaking**: The blocks don't seem to be breaking or placing when pressing the interactive keybinds...
 
 ### Features to Add:
 

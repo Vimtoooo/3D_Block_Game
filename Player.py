@@ -11,6 +11,7 @@ class Player(FirstPersonController):
         self.NORMAL_SPEED: int = 3.5
         self.SPRINT_SPEED: int = 6
         self.CROUCH_SPEED: float = 1
+        self.JUMP_HEIGHT: int = 1
 
         self.editor_camera = EditorCamera(
             enabled = False,
@@ -32,6 +33,7 @@ class Player(FirstPersonController):
         else:
             self.speed = self.NORMAL_SPEED
             self.camera_pivot.y = self.NORMAL_HEIGHT
+            self.jump_height = self.JUMP_HEIGHT
 
         # Ceiling collision check
         # Cast a ray upwards from the player's head to detect blocks
